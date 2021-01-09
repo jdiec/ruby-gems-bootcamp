@@ -1,3 +1,8 @@
 <h1>Hello world</h1>
 
-<%= link_to 'Privacy Policy', privacy_policy_path %>
+<%= link_to 'Privacy Policy', privacy_policy_path, class: 'btn btn-large btn-warning' %>
+<%= link_to privacy_policy_path, class: 'btn btn-large btn-warning' do %>
+    <i class="fas fa-file-word"></i>
+    Privacy Policy
+<% end %>
+
