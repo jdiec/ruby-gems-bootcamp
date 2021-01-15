@@ -23,7 +23,7 @@ development.rb
   config.action_mailer.default_url_options = { :host => 'https://23298ced9d6644d0a8a3037ed7728331.vfs.cloud9.us-west-1.amazonaws.com' }
   
 production.rb
-  config.action_mailer.default_url_options = { :host => 'edurge.herokuapp.com', :protocol => 'https' }
+  config.action_mailer.default_url_options = { :host => 'mooc-elearning-platform.herokuapp.com', :protocol => 'https' }
   config.action_mailer.perform_deliveries = true
   config.action_mailer.raise_delivery_errors = true
 
